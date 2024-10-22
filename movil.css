@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+    header{
+        display: flex;
+        flex-direction:column;
+    }
+    .logo{
+        /* border: 1px red solid; */
+        max-width: 150px;
+    }
+    .menusand{
+        display: block;
+    }
+    .menusand a{
+        color: #6cb500;
+        font-size: 45px;
+    }
+    .ocultar{
+        display: none ;
+
+    }
+    .nav-bar{
+        flex-direction: column;
+        /* border: 1px red solid; */
+    }
+    .nav-bar li{
+        max-width: 400px;
+        border-bottom: 1px black dashed;
+    }
+    .nav-bar a{
+        /* border: 1px red solid; */
+    }
+
+    .slide{
+        height: 425px;
+        max-width: 450px;
+    }
+    .slide p{
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .sec-servicios{
+        margin: auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer{
+        max-width: 200px;
+    }
+    .footer img{
+        width: 100%;
+        display: block;
+    }
+}

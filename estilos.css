@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arimo';
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    /* border: 2px red solid; */
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+.menusand{
+    display: none;
+}
+
+.flex-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.logo{
+    /* border: 1px red solid; */
+    max-width: 250px;
+}
+.logo img{
+    width: 100%;
+    display: block;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+}
+.nav-bar li{
+    list-style: none;
+    padding: 5px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+/* --------------------Seccion1------------------------------------- */
+.slide{
+    background-image: url(imagenes/foto_slide.jpg);
+    height: 425px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.slide p{
+    color: white;
+    margin-left: 300px;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+/* --------------------Seccion2------------------------------------- */
+.out-text{
+    /* border: 1px red solid */
+    text-align: center; 
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.sec-servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec-servicios article{
+    /* border: 1px red solid; */
+    max-width: 350px;
+    background-color: #f3f3f3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    padding: 40px;
+    border-radius: 15px;
+}
+.art-draw figure{
+    max-width: 100px;
+    margin: auto;
+}
+.sec-servicios img{
+    width: 100%;
+    display: inline-block;
+}
+.out-text
+.font-green{
+    color:#6cb500;
+}
+.text-black{
+    font-size: 30px;
+}
+
+/* --------------------Footer------------------------------------- */
+footer{
+    /* border: 1px red solid; */
+    background-color: #6cb500;
+    padding: 25px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
